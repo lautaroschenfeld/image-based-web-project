@@ -7,7 +7,8 @@
 body {
     font-family: 'Source Sans 3', arial;
     background-color: #CED6F0;
-    width: 60%;
+    width: 90%;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
@@ -24,7 +25,7 @@ h1 {
 
 h2 {
     color: #4269E2;
-    font-size:medium
+    font-size:small
 }
 
 p {
@@ -38,19 +39,21 @@ h3 {
 
 .card {
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;
     background-color: #FFFFFF;
-    padding: 20px;
-    position: relative;
-    margin: 50px auto;
+    padding: 60px 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     border-radius: 15px;
 }
 
 .row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 30px;
-    margin: 50px 0;
+    grid-gap: 50px;
+    margin-top: 60px;
 }
 
 .darkblue {
