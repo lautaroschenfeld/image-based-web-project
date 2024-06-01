@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Source Sans 3', arial;
+    background-color: #CED6F0;
     width: 60%;
     margin: 0 auto;
 }
@@ -17,19 +18,43 @@ img {
 
 h1 {
     color: #0E2058;
-    font-size: 40px;
+    font-size: 30px;
     margin: 5px 0;
 }
 
 h2 {
     color: #4269E2;
-    font-size:large
+    font-size:medium
+}
 
+p {
+    font-size: small;
 }
 
 h3 {
     color: #0E2058;
     margin: 5px 0;
+}
+
+.card {
+    width: 60%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 3%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 15px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+    margin: 50px 0;
 }
 
 .darkblue {
@@ -38,13 +63,6 @@ h3 {
 
 .lightblue {
     color: #4269E2;
-}
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 30px;
-    margin: 50px 0;
 }
 
 .centered {
